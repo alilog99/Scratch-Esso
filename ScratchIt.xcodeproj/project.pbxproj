@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA0A69C6169A1C6400D74D9A /* flake2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0A69C4169A1C6400D74D9A /* flake2.png */; };
+		DA0A69C7169A1C6400D74D9A /* flake3.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0A69C5169A1C6400D74D9A /* flake3.png */; };
+		DA13FD511699686C00690722 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = DA13FD4A1699686C00690722 /* Home.png */; };
+		DA13FD521699686C00690722 /* slayer.png in Resources */ = {isa = PBXBuildFile; fileRef = DA13FD4B1699686C00690722 /* slayer.png */; };
+		DA13FD531699686C00690722 /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = DA13FD4C1699686C00690722 /* win.png */; };
+		DA13FD541699686C00690722 /* Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA13FD4E1699686C00690722 /* Home@2x.png */; };
+		DA13FD551699686C00690722 /* slayer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA13FD4F1699686C00690722 /* slayer@2x.png */; };
+		DA13FD561699686C00690722 /* win@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA13FD501699686C00690722 /* win@2x.png */; };
+		DA13FD5A16996ADB00690722 /* SCPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA13FD5816996ADB00690722 /* SCPlayViewController.m */; };
+		DA13FD5B16996ADB00690722 /* SCPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA13FD5916996ADB00690722 /* SCPlayViewController.xib */; };
+		DA3FC086161B9D8400CA9E31 /* front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3FC085161B9D8400CA9E31 /* front@2x.png */; };
+		DA3FC088161B9EC700CA9E31 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3FC087161B9EC700CA9E31 /* bg@2x.png */; };
+		DAA39F97160C83C200232A61 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA39F95160C83C200232A61 /* SCHomeViewController.m */; };
+		DAA39F98160C83C200232A61 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA39F96160C83C200232A61 /* SCHomeViewController.xib */; };
+		DAA39F9F160C8C7400232A61 /* SCGameFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA39F9D160C8C7400232A61 /* SCGameFinishViewController.m */; };
+		DAA39FA0160C8C7400232A61 /* SCGameFinishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA39F9E160C8C7400232A61 /* SCGameFinishViewController.xib */; };
+		DAA39FAA160CE19500232A61 /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA39FA9160CE19500232A61 /* car.jpeg */; };
+		DAA8038816183B1300FEDA83 /* close.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAA8038716183B1300FEDA83 /* close.jpeg */; };
+		DAA875491608F49800C7705C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA875481608F49800C7705C /* UIKit.framework */; };
+		DAA8754B1608F49800C7705C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA8754A1608F49800C7705C /* Foundation.framework */; };
+		DAA8754D1608F49800C7705C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA8754C1608F49800C7705C /* CoreGraphics.framework */; };
+		DAA875531608F49800C7705C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA875511608F49800C7705C /* InfoPlist.strings */; };
+		DAA875551608F49800C7705C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA875541608F49800C7705C /* main.m */; };
+		DAA875591608F49800C7705C /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA875581608F49800C7705C /* SCAppDelegate.m */; };
+		DAA8755B1608F49800C7705C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA8755A1608F49800C7705C /* Default.png */; };
+		DAA8755D1608F49800C7705C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA8755C1608F49800C7705C /* Default@2x.png */; };
+		DAA8755F1608F49800C7705C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA8755E1608F49800C7705C /* Default-568h@2x.png */; };
+		DAA875741608F4C800C7705C /* SCGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA875721608F4C800C7705C /* SCGamePlayViewController.m */; };
+		DAA875751608F4C800C7705C /* SCGamePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA875731608F4C800C7705C /* SCGamePlayViewController.xib */; };
+		DAA8758B1608F78500C7705C /* ImageMaskView.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAA875861608F78500C7705C /* ImageMaskView.mm */; };
+		DAA8758C1608F78500C7705C /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA875891608F78500C7705C /* Matrix.m */; };
+		DAA8758E1608FA4800C7705C /* blur_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA8758D1608FA4800C7705C /* blur_4.png */; };
+		DAA875901608FA8400C7705C /* Code39.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA8758F1608FA8400C7705C /* Code39.png */; };
+		DABB0E721671752600345E69 /* sb1.png in Resources */ = {isa = PBXBuildFile; fileRef = DABB0E701671752600345E69 /* sb1.png */; };
+		DABB0E731671752600345E69 /* sb2.png in Resources */ = {isa = PBXBuildFile; fileRef = DABB0E711671752600345E69 /* sb2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA0A69C4169A1C6400D74D9A /* flake2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake2.png; sourceTree = "<group>"; };
+		DA0A69C5169A1C6400D74D9A /* flake3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake3.png; sourceTree = "<group>"; };
+		DA13FD4A1699686C00690722 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		DA13FD4B1699686C00690722 /* slayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slayer.png; sourceTree = "<group>"; };
+		DA13FD4C1699686C00690722 /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win.png; sourceTree = "<group>"; };
+		DA13FD4E1699686C00690722 /* Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@2x.png"; sourceTree = "<group>"; };
+		DA13FD4F1699686C00690722 /* slayer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slayer@2x.png"; sourceTree = "<group>"; };
+		DA13FD501699686C00690722 /* win@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win@2x.png"; sourceTree = "<group>"; };
+		DA13FD5716996ADB00690722 /* SCPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPlayViewController.h; sourceTree = "<group>"; };
+		DA13FD5816996ADB00690722 /* SCPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPlayViewController.m; sourceTree = "<group>"; };
+		DA13FD5916996ADB00690722 /* SCPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCPlayViewController.xib; sourceTree = "<group>"; };
+		DA3FC085161B9D8400CA9E31 /* front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front@2x.png"; sourceTree = "<group>"; };
+		DA3FC087161B9EC700CA9E31 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		DAA39F94160C83C200232A61 /* SCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
+		DAA39F95160C83C200232A61 /* SCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
+		DAA39F96160C83C200232A61 /* SCHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
+		DAA39F99160C89E900232A61 /* SCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCConstants.h; sourceTree = "<group>"; };
+		DAA39F9C160C8C7400232A61 /* SCGameFinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGameFinishViewController.h; sourceTree = "<group>"; };
+		DAA39F9D160C8C7400232A61 /* SCGameFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGameFinishViewController.m; sourceTree = "<group>"; };
+		DAA39F9E160C8C7400232A61 /* SCGameFinishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCGameFinishViewController.xib; sourceTree = "<group>"; };
+		DAA39FA9160CE19500232A61 /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpeg; sourceTree = "<group>"; };
+		DAA8038716183B1300FEDA83 /* close.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = close.jpeg; sourceTree = "<group>"; };
+		DAA875441608F49800C7705C /* ScratchIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA875481608F49800C7705C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAA8754A1608F49800C7705C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAA8754C1608F49800C7705C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAA875501608F49800C7705C /* ScratchIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScratchIt-Info.plist"; sourceTree = "<group>"; };
+		DAA875521608F49800C7705C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAA875541608F49800C7705C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAA875561608F49800C7705C /* ScratchIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScratchIt-Prefix.pch"; sourceTree = "<group>"; };
+		DAA875571608F49800C7705C /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		DAA875581608F49800C7705C /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		DAA8755A1608F49800C7705C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DAA8755C1608F49800C7705C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DAA8755E1608F49800C7705C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DAA875711608F4C800C7705C /* SCGamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGamePlayViewController.h; sourceTree = "<group>"; };
+		DAA875721608F4C800C7705C /* SCGamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGamePlayViewController.m; sourceTree = "<group>"; };
+		DAA875731608F4C800C7705C /* SCGamePlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCGamePlayViewController.xib; sourceTree = "<group>"; };
+		DAA875851608F78500C7705C /* ImageMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMaskView.h; sourceTree = "<group>"; };
+		DAA875861608F78500C7705C /* ImageMaskView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageMaskView.mm; sourceTree = "<group>"; };
+		DAA875881608F78500C7705C /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		DAA875891608F78500C7705C /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Matrix.m; path = Utils/Matrix.m; sourceTree = "<group>"; };
+		DAA8758A1608F78500C7705C /* PointTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointTransforms.h; sourceTree = "<group>"; };
+		DAA8758D1608FA4800C7705C /* blur_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_4.png; sourceTree = "<group>"; };
+		DAA8758F1608FA8400C7705C /* Code39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Code39.png; sourceTree = "<group>"; };
+		DABB0E701671752600345E69 /* sb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sb1.png; sourceTree = "<group>"; };
+		DABB0E711671752600345E69 /* sb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sb2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA875411608F49800C7705C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA875491608F49800C7705C /* UIKit.framework in Frameworks */,
+				DAA8754B1608F49800C7705C /* Foundation.framework in Frameworks */,
+				DAA8754D1608F49800C7705C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA13FD471699685300690722 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DA13FD491699686C00690722 /* @1x */,
+				DA13FD4D1699686C00690722 /* @2x */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DA13FD491699686C00690722 /* @1x */ = {
+			isa = PBXGroup;
+			children = (
+				DA13FD4A1699686C00690722 /* Home.png */,
+				DA13FD4B1699686C00690722 /* slayer.png */,
+				DA13FD4C1699686C00690722 /* win.png */,
+			);
+			path = "@1x";
+			sourceTree = "<group>";
+		};
+		DA13FD4D1699686C00690722 /* @2x */ = {
+			isa = PBXGroup;
+			children = (
+				DA13FD4E1699686C00690722 /* Home@2x.png */,
+				DA13FD4F1699686C00690722 /* slayer@2x.png */,
+				DA13FD501699686C00690722 /* win@2x.png */,
+			);
+			path = "@2x";
+			sourceTree = "<group>";
+		};
+		DAA875391608F49800C7705C = {
+			isa = PBXGroup;
+			children = (
+				DAA8754E1608F49800C7705C /* ScratchIt */,
+				DAA875471608F49800C7705C /* Frameworks */,
+				DAA875451608F49800C7705C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA875451608F49800C7705C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA875441608F49800C7705C /* ScratchIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA875471608F49800C7705C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA875481608F49800C7705C /* UIKit.framework */,
+				DAA8754A1608F49800C7705C /* Foundation.framework */,
+				DAA8754C1608F49800C7705C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA8754E1608F49800C7705C /* ScratchIt */ = {
+			isa = PBXGroup;
+			children = (
+				DA13FD471699685300690722 /* images */,
+				DAA875821608F70600C7705C /* Mask */,
+				DAA875571608F49800C7705C /* SCAppDelegate.h */,
+				DAA875581608F49800C7705C /* SCAppDelegate.m */,
+				DAA8754F1608F49800C7705C /* Supporting Files */,
+				DAA875711608F4C800C7705C /* SCGamePlayViewController.h */,
+				DAA875721608F4C800C7705C /* SCGamePlayViewController.m */,
+				DAA875731608F4C800C7705C /* SCGamePlayViewController.xib */,
+				DAA39F94160C83C200232A61 /* SCHomeViewController.h */,
+				DAA39F95160C83C200232A61 /* SCHomeViewController.m */,
+				DAA39F96160C83C200232A61 /* SCHomeViewController.xib */,
+				DAA39F99160C89E900232A61 /* SCConstants.h */,
+				DAA39F9C160C8C7400232A61 /* SCGameFinishViewController.h */,
+				DAA39F9D160C8C7400232A61 /* SCGameFinishViewController.m */,
+				DAA39F9E160C8C7400232A61 /* SCGameFinishViewController.xib */,
+				DA13FD5716996ADB00690722 /* SCPlayViewController.h */,
+				DA13FD5816996ADB00690722 /* SCPlayViewController.m */,
+				DA13FD5916996ADB00690722 /* SCPlayViewController.xib */,
+			);
+			path = ScratchIt;
+			sourceTree = "<group>";
+		};
+		DAA8754F1608F49800C7705C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAA875501608F49800C7705C /* ScratchIt-Info.plist */,
+				DAA875511608F49800C7705C /* InfoPlist.strings */,
+				DAA875541608F49800C7705C /* main.m */,
+				DAA875561608F49800C7705C /* ScratchIt-Prefix.pch */,
+				DAA8755A1608F49800C7705C /* Default.png */,
+				DAA8755C1608F49800C7705C /* Default@2x.png */,
+				DAA8755E1608F49800C7705C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAA875821608F70600C7705C /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				DA0A69C4169A1C6400D74D9A /* flake2.png */,
+				DA0A69C5169A1C6400D74D9A /* flake3.png */,
+				DABB0E701671752600345E69 /* sb1.png */,
+				DAA875891608F78500C7705C /* Matrix.m */,
+				DABB0E711671752600345E69 /* sb2.png */,
+				DA3FC087161B9EC700CA9E31 /* bg@2x.png */,
+				DA3FC085161B9D8400CA9E31 /* front@2x.png */,
+				DAA8038716183B1300FEDA83 /* close.jpeg */,
+				DAA39FA9160CE19500232A61 /* car.jpeg */,
+				DAA8758F1608FA8400C7705C /* Code39.png */,
+				DAA8758D1608FA4800C7705C /* blur_4.png */,
+				DAA875851608F78500C7705C /* ImageMaskView.h */,
+				DAA875861608F78500C7705C /* ImageMaskView.mm */,
+				DAA875871608F78500C7705C /* Utils */,
+			);
+			name = Mask;
+			sourceTree = "<group>";
+		};
+		DAA875871608F78500C7705C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAA875881608F78500C7705C /* Matrix.h */,
+				DAA8758A1608F78500C7705C /* PointTransforms.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA875431608F49800C7705C /* ScratchIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA8756E1608F49800C7705C /* Build configuration list for PBXNativeTarget "ScratchIt" */;
+			buildPhases = (
+				DAA875401608F49800C7705C /* Sources */,
+				DAA875411608F49800C7705C /* Frameworks */,
+				DAA875421608F49800C7705C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchIt;
+			productName = ScratchIt;
+			productReference = DAA875441608F49800C7705C /* ScratchIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA8753B1608F49800C7705C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Jinn;
+			};
+			buildConfigurationList = DAA8753E1608F49800C7705C /* Build configuration list for PBXProject "ScratchIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAA875391608F49800C7705C;
+			productRefGroup = DAA875451608F49800C7705C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA875431608F49800C7705C /* ScratchIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA875421608F49800C7705C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA875531608F49800C7705C /* InfoPlist.strings in Resources */,
+				DAA8755B1608F49800C7705C /* Default.png in Resources */,
+				DAA8755D1608F49800C7705C /* Default@2x.png in Resources */,
+				DAA8755F1608F49800C7705C /* Default-568h@2x.png in Resources */,
+				DAA875751608F4C800C7705C /* SCGamePlayViewController.xib in Resources */,
+				DAA8758E1608FA4800C7705C /* blur_4.png in Resources */,
+				DAA875901608FA8400C7705C /* Code39.png in Resources */,
+				DAA39F98160C83C200232A61 /* SCHomeViewController.xib in Resources */,
+				DAA39FA0160C8C7400232A61 /* SCGameFinishViewController.xib in Resources */,
+				DAA39FAA160CE19500232A61 /* car.jpeg in Resources */,
+				DAA8038816183B1300FEDA83 /* close.jpeg in Resources */,
+				DA3FC086161B9D8400CA9E31 /* front@2x.png in Resources */,
+				DA3FC088161B9EC700CA9E31 /* bg@2x.png in Resources */,
+				DABB0E721671752600345E69 /* sb1.png in Resources */,
+				DABB0E731671752600345E69 /* sb2.png in Resources */,
+				DA13FD511699686C00690722 /* Home.png in Resources */,
+				DA13FD521699686C00690722 /* slayer.png in Resources */,
+				DA13FD531699686C00690722 /* win.png in Resources */,
+				DA13FD541699686C00690722 /* Home@2x.png in Resources */,
+				DA13FD551699686C00690722 /* slayer@2x.png in Resources */,
+				DA13FD561699686C00690722 /* win@2x.png in Resources */,
+				DA13FD5B16996ADB00690722 /* SCPlayViewController.xib in Resources */,
+				DA0A69C6169A1C6400D74D9A /* flake2.png in Resources */,
+				DA0A69C7169A1C6400D74D9A /* flake3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA875401608F49800C7705C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA875551608F49800C7705C /* main.m in Sources */,
+				DAA875591608F49800C7705C /* SCAppDelegate.m in Sources */,
+				DAA875741608F4C800C7705C /* SCGamePlayViewController.m in Sources */,
+				DAA8758B1608F78500C7705C /* ImageMaskView.mm in Sources */,
+				DAA8758C1608F78500C7705C /* Matrix.m in Sources */,
+				DAA39F97160C83C200232A61 /* SCHomeViewController.m in Sources */,
+				DAA39F9F160C8C7400232A61 /* SCGameFinishViewController.m in Sources */,
+				DA13FD5A16996ADB00690722 /* SCPlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAA875511608F49800C7705C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA875521608F49800C7705C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAA8756C1608F49800C7705C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAA8756D1608F49800C7705C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA8756F1608F49800C7705C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Syed Raza (832RV4LWG5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Syed Raza (832RV4LWG5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScratchIt/ScratchIt-Prefix.pch";
+				INFOPLIST_FILE = "ScratchIt/ScratchIt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29A7E2A6-267D-4B02-9955-D7421D2A34F3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "29A7E2A6-267D-4B02-9955-D7421D2A34F3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAA875701608F49800C7705C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Syed Raza (832RV4LWG5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Syed Raza (832RV4LWG5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScratchIt/ScratchIt-Prefix.pch";
+				INFOPLIST_FILE = "ScratchIt/ScratchIt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29A7E2A6-267D-4B02-9955-D7421D2A34F3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "29A7E2A6-267D-4B02-9955-D7421D2A34F3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA8753E1608F49800C7705C /* Build configuration list for PBXProject "ScratchIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA8756C1608F49800C7705C /* Debug */,
+				DAA8756D1608F49800C7705C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA8756E1608F49800C7705C /* Build configuration list for PBXNativeTarget "ScratchIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA8756F1608F49800C7705C /* Debug */,
+				DAA875701608F49800C7705C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA8753B1608F49800C7705C /* Project object */;
+}
